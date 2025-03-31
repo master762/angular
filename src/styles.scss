@@ -1,1 +1,31 @@
-/* You can add global styles to this file, and also import other style files */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul, ol {
+  list-style: none;
+}
+
+body {
+    font-family: 'Forum';
+  
+    background: linear-gradient(
+        to bottom,
+        #E2D3CE 0%,
+        #C9C8D8 31%,
+        #D4D8C6 59%,
+        #E2D3CE 100%
+      );
+}
+.container{
+width: 1110px;
+margin: 0 auto;
+}
