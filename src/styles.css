@@ -1,0 +1,33 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+body {
+  font-family: "Forum";
+  background: linear-gradient(
+    to bottom,
+    #e2d3ce 0%,
+    #c9c8d8 31%,
+    #d4d8c6 59%,
+    #e2d3ce 100%
+  );
+}
+
+.container {
+  width: 1110px;
+  margin: 0 auto;
+}

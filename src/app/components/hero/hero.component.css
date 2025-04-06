@@ -1,0 +1,36 @@
+div {
+  margin: 40px auto;
+}
+div:nth-child(1) {
+  max-width: 138px;
+}
+div:nth-child(1) p {
+  font-size: 25px;
+  line-height: 98.5%;
+  letter-spacing: 30%;
+  text-align: center;
+  color: #0c0b10;
+  font-weight: 400;
+}
+div:nth-child(2) {
+  max-width: 936px;
+}
+
+.sub-title-first-part,
+.sub-title-second-part {
+  position: relative;
+  color: #fcfcfc;
+  letter-spacing: 4%;
+  font-weight: 400;
+  font-size: 197.95px;
+  line-height: 64.9%;
+  text-align: center;
+}
+
+.sub-title-first-part {
+  z-index: 1;
+}
+
+.sub-title-second-part {
+  z-index: 2;
+}/*# sourceMappingURL=hero.component.css.map */
