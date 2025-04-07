@@ -1,0 +1,70 @@
+.tit3465le {
+  max-width: 214px;
+
+  h2 {
+    color: #0c0b10;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 58px;
+  }
+  button {
+    margin-top: 30px;
+    width: 140px;
+    height: 38px;
+    background: transparent;
+    border: 0.6px solid #0c0b10;
+    border-radius: 61px;
+  }
+}
+.container {
+  margin-top: 245px;
+}
+
+.first-row,
+.second-row {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  max-width: 350px;
+  width: 100%;
+  min-height: 570px;
+  text-align: center;
+  h3 {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 98.5%;
+  }
+}
+.text-container {
+  margin: 67px auto;
+  max-width: 251px;
+  color: #ffff;
+}
+.rhombus {
+  margin: 97px auto;
+  width: 121px;
+  height: 231px;
+  background: rgba(144, 144, 144, 0.14);
+  border: 1px solid #000000;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rhombus-text {
+  p:nth-child(1) {
+    color: #ffff;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 98.5%;
+  }
+  p:nth-child(2) {
+    color: #ffff;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 98.5%;
+    margin-bottom: 9px;
+  }
+}

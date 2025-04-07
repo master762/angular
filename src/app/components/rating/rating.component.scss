@@ -36,6 +36,7 @@
   }
 }
 .slides {
+  position: relative;
   margin-left: 11.46%;
   display: flex;
   gap: 30px;
@@ -46,6 +47,11 @@
     display: flex;
     justify-content: space-evenly;
     padding-top: 376px;
+    transition: 0.3s;
+    cursor: pointer;
+    &:hover {
+      transform: scale(1.03);
+    }
     .info {
       max-width: 251px;
       .country {
@@ -86,5 +92,26 @@
     color: #ffffff;
     font-size: 12px;
     font-weight: 500;
+  }
+}
+.Next-slide {
+  background-color: #79655e;
+  width: 106px;
+  height: 106px;
+  position: absolute;
+  border: none;
+  transform: rotate(45deg);
+  top: 222px;
+  right: 96px;
+  cursor: pointer;
+  transition: 0.3s;
+  z-index: 2;
+  &:active {
+    background-color: #5a4d48;
+    width: 100px;
+    height: 100px;
+  }
+  img {
+    transform: rotate(-45deg);
   }
 }
