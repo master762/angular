@@ -1,6 +1,6 @@
-.tit3465le {
+.title {
   max-width: 214px;
-
+  margin-right: 135px;
   h2 {
     color: #0c0b10;
     font-weight: 400;
@@ -23,17 +23,35 @@
 .first-row,
 .second-row {
   display: flex;
-  justify-content: space-between;
+  gap: 31px;
+  height: fit-content;
+  align-items: start;
+  width: 100%;
+}
+.second-row {
+  margin-top: 32px;
 }
 .card {
   max-width: 350px;
   width: 100%;
-  min-height: 570px;
+  height: 570px;
   text-align: center;
+  transition: 0.3s;
   h3 {
     font-weight: 400;
     font-size: 36px;
     line-height: 98.5%;
+  }
+}
+.card:hover {
+  transform: scale(1.03);
+}
+.card:nth-child(3) {
+  margin-top: -119px;
+}
+.second-row {
+  .card:nth-child(1) {
+    margin-top: -151px;
   }
 }
 .text-container {
@@ -43,16 +61,27 @@
 }
 .rhombus {
   margin: 97px auto;
+  position: relative;
+}
+.rhombus-bacground {
+  position: relative;
+}
+.rhombus-fill {
   width: 121px;
   height: 231px;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
   background: rgba(144, 144, 144, 0.14);
-  border: 1px solid #000000;
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   display: flex;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
+
 .rhombus-text {
   p:nth-child(1) {
     color: #ffff;

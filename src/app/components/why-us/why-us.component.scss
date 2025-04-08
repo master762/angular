@@ -1,0 +1,115 @@
+.bacground {
+  width: 100%;
+  min-height: 1308px;
+  background-image: url(/img/bg_whyluxtrip.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: -1;
+  margin-top: 9px;
+}
+.first-title,
+.second-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  h3 {
+    color: #0c0b10;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 58px;
+    max-width: 219px;
+    text-align: start;
+  }
+  p {
+    color: #000000;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 179.8%;
+    max-width: 254px;
+    text-align: start;
+  }
+}
+.first-title {
+  padding-top: 122px;
+}
+.second-title {
+  margin-top: 503px;
+  h3 {
+    max-width: 380px;
+  }
+  p {
+    max-width: 238px;
+  }
+}
+.pin {
+  position: absolute;
+  &:nth-child(2) {
+    top: 27.98%;
+    right: 28%;
+  }
+  &:nth-child(3) {
+    left: 32.64%;
+    top: 26.22%;
+  }
+  &:nth-child(4) {
+    top: 18.81%;
+    left: 14.31%;
+  }
+  &:nth-child(5) {
+    top: 39.6%;
+    right: 10.28%;
+  }
+}
+.plan {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 68px;
+
+  div {
+    margin-top: 104px;
+    max-width: 352px;
+    p {
+      font-size: 40px;
+      font-weight: 400;
+      line-height: 101.2%;
+      color: #0c0b10;
+    }
+    button {
+      margin-top: 35px;
+      background: transparent;
+      border: 0.62px solid #0c0b10;
+      border-radius: 61.32px;
+      text-align: center;
+      padding: 11px 32px 9px 30px;
+      span {
+        color: #0c0b10;
+        font-size: 16px;
+        letter-spacing: 4%;
+      }
+    }
+  }
+}
+.trip {
+  background-image: url(/img/bg-clouds.png);
+  min-height: 1337px;
+  max-width: 2400px;
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
+  z-index: -1;
+  margin-top: -359px;
+}
+.text {
+  margin-top: 460px;
+  position: relative;
+  text-align: center;
+  max-width: 403px;
+  h3 {
+    color: #0c0b10;
+    font-size: 60px;
+    line-height: 58px;
+  }
+}

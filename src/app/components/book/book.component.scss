@@ -1,0 +1,59 @@
+.title {
+  text-align: center;
+  max-width: 184px;
+  margin: 158px auto 74px auto;
+  h2 {
+    color: #0c0b10;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 58px;
+  }
+}
+.cards {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.card {
+  max-width: 540px;
+  width: 100%;
+  min-height: 191px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: -1;
+  p {
+    color: #ffff;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 98.5%;
+    letter-spacing: 4%;
+    text-align: center;
+  }
+}
+
+.rhombus-fill {
+  width: 127px;
+  height: 67px;
+  background: rgba(144, 144, 144, 0.14);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  z-index: -1;
+}
+.rhombus-bacground {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
