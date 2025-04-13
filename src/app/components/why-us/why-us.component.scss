@@ -113,3 +113,65 @@
     line-height: 58px;
   }
 }
+.romb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/img/points.svg);
+  width: 115px;
+  height: 219px;
+  margin-bottom: -2px;
+  margin-top: -2px;
+  p {
+    color: #0c0b10;
+    font-size: 69px;
+  }
+}
+.line {
+  width: 1px;
+  height: 67px;
+  background: #ffffff;
+}
+.rombs {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.general {
+  display: flex;
+  gap: 77px;
+  margin: 70px auto;
+  width: 540px;
+  min-height: 779px;
+}
+.txt {
+  p:nth-child(1) {
+    color: #0c0b10;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 98.5%;
+    margin-bottom: 12px;
+  }
+  p:nth-child(2) {
+    color: #000000;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 179%;
+  }
+}
+.text-romb {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.bg {
+  width: 100%;
+  min-height: 1130px;
+  background-image: url(/img/whyUsBg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: -2;
+  margin-top: -630px;
+}
